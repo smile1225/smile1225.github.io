@@ -1,0 +1,105 @@
+.clearfix:before,.clearfix:after{display: table;content: "";}
+.clearfix:after{clear: both;}
+.clearfix{zoom:1;}
+.main{
+	background-image: url(../images/main.png);
+}
+.main-inner{
+	width: 941px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.main-top{
+	margin-top: 38px;
+}
+.main-top img:nth-child(2){padding: 0 10px;}
+.main-left{
+	width: 600px;
+	float: left;
+	margin-top: 40px;
+	/*border: 1px solid red;*/
+}
+.main-left h3{
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.pic1{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.pic1 img:nth-child(2){
+	padding: 0 20px;
+}
+.pic2{
+	padding-bottom: 30px;
+}
+.pic2 img:nth-child(2){
+	padding: 0 20px;
+}
+.more{
+	width: 106px;
+	height: 41px;
+	/*margin-top: 25px;*/
+	/*background-color: #d43b00;*/
+	background-image: -webkit-linear-gradient(top,#e36100,#cd2a00);
+	display: block;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 41px;
+	text-align: center;
+	font-size: 25px;
+}
+.main-right{
+	width: 300px;
+	float: right;
+	margin-top: 40px;
+	/*border: 1px solid red;*/
+}
+.main-right .H{
+	width: 302px;
+	height: 48px;
+	background-image: url(../images/h_07.png);
+}
+.main-right .H h3{
+	color: #fff;
+	font-size: 22px;
+	line-height: 48px;
+	text-indent: 20px;
+}
+.main-right p{
+	padding-top: 20px;
+	color: #7f7f7f;
+	line-height: 25px;
+	padding-left: 20px;
+}
+.more1{
+	width: 106px;
+	height: 41px;
+	margin: 20px 0 40px 20px;
+	background-image: -webkit-linear-gradient(top,#e36100,#cd2a00);
+	display: block;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 41px;
+	text-align: center;
+	font-size: 25px;
+}
+.main-right ul{padding:20px;}
+.main-right ul li{
+	width: 290px;
+	background-image: url(../images/tubiao_16.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: center left;
+	border-bottom: 1px dashed #3c3d3d;
+}
+.main-right a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 35px;
+	font-weight: bold;
+}
+.main-right a:hover{color: red;}

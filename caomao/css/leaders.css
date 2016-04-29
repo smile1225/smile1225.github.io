@@ -1,0 +1,154 @@
+.clearfix:before,.clearfix:after{display: table;content: "";}
+.clearfix:after{clear: both;}
+.clearfix{zoom:1;}
+.main{
+	background-image: url(../images/main.png);
+}
+.main-inner{
+	width: 941px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.main-top{
+	/*width: 941px;*/
+	/*height: 180px;*/
+	/*border:1px solid blue;*/
+	margin-top: 38px;
+}
+.main-top img:nth-child(2){padding: 0 10px;}
+.main-left{
+	width: 600px;
+	float: left;
+	margin-top: 50px;
+	/*border: 1px solid red;*/
+}
+.cha{
+	border-bottom: 1px dashed #3c3d3d;
+	padding-bottom: 30px;
+}
+.cha h1{
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 28px;
+}
+.cha .txt1{
+	padding-bottom: 20px;
+}
+.cha .txt1 img{
+	float: left;
+	width: 220px;
+}
+.cha .txt1 p{
+	color: #7f7f7f;
+	line-height: 24px;
+	float: right;
+	width: 360px;
+}
+.more{
+	clear: both;
+	width: 106px;
+	/*height: 41px;*/
+	display: block;
+	background-image: -webkit-linear-gradient(top,#e36100,#cd2a00);
+	border-radius: 5px;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	line-height: 41px;
+	text-align: center;
+	/*margin-left: 20px;*/
+}
+.sco{
+	padding-top: 34px;
+}
+.sco h1{
+	color: #fff;
+	font-size: 30px;
+	/*padding-bottom: 28px;*/
+}
+.sco p{
+	color: #7f7f7f;
+	line-height: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+}
+.sco span{color: #fff;}
+.txt2{
+	padding-bottom: 20px;
+}
+.txt2 img{
+	float: left;
+	width: 220px;
+}
+.txt2 ul{
+	float: right;
+	width: 362px;
+}
+.txt2 ul li{
+	/*height: 35px;*/
+	border-bottom: 1px dashed #3c3d3d;
+}
+.txt2 li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 28px;
+}
+.txt2 li a:hover{color: red;}
+.main-right{
+	float: right;
+	width: 300px;
+	margin-top: 40px;
+	/*border: 1px solid red;*/
+}
+.H{
+	width: 300px;
+	height: 48px;
+	background-image: url(../images/h_04.png);
+}
+.H h3{
+	color: #fff;
+	font-size: 22px;
+	line-height: 48px;
+	text-indent: 20px;
+}
+.main-right p{
+	padding-top: 20px;
+	color: #7f7f7f;
+	line-height: 25px;
+	padding-left: 20px;
+}
+.main-right ul{padding:20px;}
+.main-right ul li{
+	width: 282px;
+	background-image: url(../images/tubiao_16.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: center left;
+	border-bottom: 1px dashed #3c3d3d;
+}
+.main-right a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 35px;
+	font-weight: bold;
+	font-style: italic;
+}
+.main-right a:hover{color: red;}
+.more1{
+	clear: both;
+	width: 106px;
+	/*height: 41px;*/
+	display: block;
+	background-image: -webkit-linear-gradient(top,#e36100,#cd2a00);
+	border-radius: 5px;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	line-height: 41px;
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+

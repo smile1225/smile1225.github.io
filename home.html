@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/t.ico" type="image/x-icon" />
+
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/TMForm.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('.gallery .gall_item').touchTouch();
+ });
+ $(document).ready(function(){
+     jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: true ,
+      minHeight: '500',
+      thumbnails: false,
+      height: '44.42708333333333%',
+      caption: true,
+      navigation: false,
+      fx: 'mosaic'
+    });
+    $('.gallery .gall-item').touchTouch();
+  });
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="texture">
+<!--==============================
+              header
+=================================-->
+<header id="home" class="page">
+  <div class="navigation single-page-nav">
+    <div class="container_12">
+      <div class="grid_12">
+        <h1 class="logo">
+          <a href="index.html"></a>
+        </h1>
+        <nav>
+          <ul>
+           <li><a href="#home" class="current">个人主页</a></li>
+           <li><a href="#portfolio">我的作品</a></li>
+           <li><a href="#skills">个人技能</a></li>
+           <li><a href="#experience">工作经历</a></li>
+           <li><a href="#contacts">联系方式</a></li>
+         </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div id="camera_wrap">
+    <div data-src="images/slide-1.jpg">
+      <div class="caption fadeIn">忙碌是种幸福，让我们没时间痛苦</div>
+    </div>
+    <div data-src="images/slide-2.jpg">
+      <div class="caption fadeIn">人不一定要长得漂亮，但一定要活得漂亮</div>
+    </div>
+    <div data-src="images/slide-3.jpg">
+      <div class="caption fadeIn">以后的你会感谢现在努力的你</div>
+    </div>
+  </div>
+</header>
+<!--=====================
+          Content
+======================-->
+<section class="content">
+  <div class="ic"></div>
+  <div class="pad-1">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>About Me
+
+        </h2>
+        <div class="center">
+        <p class="offset__1">作为一个真正的程序员，首先应该尊重编程，热爱你所写下的程序，他是你的伙伴，而不是工具</p>
+        </div>
+        <img id="me" src="images/page-img_1.jpg" alt="" class="fleft">
+        <div class="extra_wrapper">
+          <div class="text-1">
+            姓名：李建丽
+          </div>
+          <div class="text-2 color1">
+            <p>性别：女</p>
+            <p>户口：河北-邯郸</p>
+            <p>学校：石家庄建工学院</p>
+          </div>
+          <p></p>
+          <p>我是一个性格比较开朗的女孩，我爱生活的所有，我乐于沟通，对未知事物有强烈的好奇心，对编码有浓厚的兴趣。在工作中，积极主动，善于发现问题，主动思考，虚心与人交流，具有良好的团队精神。</p>
+          I was a character more cheerful girl, I love life of all, I am happy to communicate, to the unknown have intense curiosity, have strong interest in coding. At work, initiative, good at discovering problems, active thinking, modestly to communicate with people, has the good team spirit<br>
+      
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+<section id="portfolio" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2 class="color2">My Homework</h2>
+      <div id="filters" class="button-group">
+        <a href="#" class="btn is-checked" data-filter="*">全部项目</a>
+        <a href="#" class="btn" data-filter=".ill">线上项目1</a>
+        <a href="#" class="btn" data-filter=".photo">线上项目2</a>
+        <a href="#" class="btn" data-filter=".design">日常练习</a>
+      </div>
+      <div class="el gallery" id="isotope">
+        <div class="element design">
+          <div id="box1">
+            <a id="more1" href="aosika.html" class="gall-item"><img id="pic1" src="images/gal_img1.jpg" alt=""><span></span><a id="more" href="">read more</a></a>
+        </div>
+        </div>
+        <div class="element photo">
+          <div>
+            <a id="more2" href="http://aotulink.com/" class="gall-item"><img id="pic2" src="images/gal_img2.png" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element  photo">
+          <div>
+            <a id="more3" href="http://www.miliao.com/" class="gall-item"><img id="pic3" src="images/gal_img3.png" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="element ill">
+          <div>
+            <a id="more4" href="https://jr.jiayuan.com/" class="gall-item"><img id="pic4" src="images/gal_img4.png" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element ill">
+          <div>
+            <a id="more5" href="http://www.epaidai.com/" class="gall-item"><img id="pic5" src="images/gal_img5.png" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element design">
+          <div>
+            <a id="more6" href="caomao/index.html" class="gall-item"><img id="pic6" src="images/gal_img6.png" alt=""><span></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="skills" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Skills</h2>
+    </div>
+    <div class="grid_3">
+     <div style="clear:both"></div>
+        <div class="circle">
+          <input class="knob" data-angleOffset=0 value="93" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Photoshop</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="82" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">HTML5/CSS3</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="90" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Photography</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="89" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">PHP/MYSQL</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="experience" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Work Experience</h2>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>2014 - 2016</h3>
+            <time  datetime="2014-01-01" class="text-2">September <span>January</span></time>
+            <div class="ta__right">
+              <div class="text-2 color1">北京第嘉文化传媒有限公司</div>
+              职位名称：前端开发工程师
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>职位描述</h3>
+            
+            <p>根据产品需求和UI效果图利用sublime编程软件进行h5+css3标准网页制作与开发及jQuery特效编写，解决主流浏览器兼容性问题，利用node.js、angluar.js等进行数据交互;熟悉ajax技术，参与需求评审，对需求完善及实施提供方案，利用js相关技术开发移动端的前端页面，偶尔会负责产品测试；熟练使用sublime、ps等软件；了解github应用；</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="contacts" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="grid_6">
+      <form id="contact-form">
+          <div class="contact-form-loader"></div>
+          <fieldset>
+            <label class="name">
+              <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid name.</span>
+            </label>
+            <label class="email">
+              <input type="text" name="email" placeholder="email:" value="" data-constraints="@Required @Email" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid email.</span>
+            </label>
+            <label class="phone">
+              <input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid phone.</span>
+            </label>
+            <label class="message">
+              <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*The message is too short.</span>
+            </label>
+            <div>
+              <a href="#" class="btn" data-type="submit">submit </a>
+            </div>
+          </fieldset>
+          <div class="modal fade response-message">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  You message has been sent! We will be in touch soon.
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="grid_6">
+        <p><a href="#" rel="nofollow" class="color1">下面有我的联系方式,记得给我打电话哦</p>
+        <p>手机号：13930036343 </p>
+        <p>QQ：1679203148</p>
+        <p>邮箱：1679203148@qq.com</p>
+        <p>github账号：smile1225.github.io</p>
+      </div>
+    <div class="clear"></div>
+  </div>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="social-icons">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+</section>
+<!--==============================
+              footer
+=================================-->
+</div>
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="copyright">谢谢观赏</div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script>
+  // Prevent console.log from generating errors in IE for the purposes of the demo
+  if ( ! window.console ) console = { log: function(){} };
+  // The actual plugin
+  $('.single-page-nav').singlePageNav({
+      offset: $('.single-page-nav').outerHeight(),
+      filter: ':not(.external)',
+      updateHash: true,
+      beforeStart: function() {
+          console.log('begin scrolling');
+      },
+      onComplete: function() {
+          console.log('done scrolling');
+      }
+  });
+</script>
+<script type="text/javascript">
+          google_api_map_init();
+          function google_api_map_init(){
+            var map;
+            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14));
+            var styleArray = [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#193341"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#29768a"
+            },
+            {
+                "lightness": -37
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#3e606f"
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.84
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "weight": 0.6
+            },
+            {
+                "color": "#1a3541"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    }
+]
+            function initialize() {
+              var mapOptions = {
+                zoom: 13,
+                center: coordData,
+                scrollwheel: false,
+                styles: styleArray
+              }
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            google.maps.event.addDomListener(window, 'resize', function() {
+              map.setCenter(coordData);
+              var center = map.getCenter();
+            });
+          }
+            google.maps.event.addDomListener(window, "load", initialize);
+          }
+      </script>
+              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+      <script src="js/jquery.knob.js"></script>
+<script>
+  $(function($) {
+    $(".knob").knob({
+        change : function (value) {
+            //console.log("change : " + value);
+        },
+        release : function (value) {
+            //console.log(this.$.attr('value'));
+            console.log("release : " + value);
+        },
+        cancel : function () {
+            console.log("cancel : ", this);
+        },
+        /*format : function (value) {
+            return value + '%';
+        },*/
+        draw : function () {
+            // "tron" case
+            if(this.$.data('skin') == 'tron') {
+                this.cursorExt = 0.3;
+                var a = this.arc(this.cv)  // Arc
+                    , pa                   // Previous arc
+                    , r = 1;
+                this.g.lineWidth = this.lineWidth;
+                if (this.o.displayPrevious) {
+                    pa = this.arc(this.v);
+                    this.g.beginPath();
+                    this.g.strokeStyle = this.pColor;
+                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                    this.g.stroke();
+                }
+                this.g.beginPath();
+                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                this.g.stroke();
+                this.g.lineWidth = 2;
+                this.g.beginPath();
+                this.g.strokeStyle = this.o.fgColor;
+                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                this.g.stroke();
+                return false;
+            }
+        }
+    });
+    // Example of infinite knob, iPod click wheel
+    var v, up=0,down=0,i=0
+        ,$idir = $("div.idir")
+        ,$ival = $("div.ival")
+        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+    $("input.infinite").knob(
+                        {
+                        min : 0
+                        , max : 20
+                        , stopper : false
+                        , change : function () {
+                                        if(v > this.cv){
+                                            if(up){
+                                                decr();
+                                                up=0;
+                                            }else{up=1;down=0;}
+                                        } else {
+                                            if(v < this.cv){
+                                                if(down){
+                                                    incr();
+                                                    down=0;
+                                                }else{down=1;up=0;}
+                                            }
+                                        }
+                                        v = this.cv;
+                                    }
+                        });
+    });
+</script>
+<script src="js/isotop_ini.js"></script>
+</body>
+</html>
