@@ -65,6 +65,6 @@ $("#more5").click(function(){
   window.location.href="http://www.epaidai.com/"
 })
 $("#more6").click(function(){
-  window.location.href="caomao/index.html"
+  window.location.href="wxdwj/wxwenjuanksn.html"
 })
 
