@@ -50,7 +50,7 @@ $( function() {
   
 });
 $("#more1").click(function(){
-  window.location.href="aosika/index.html"
+  window.location.href="wxdwj/wxwenjuancpn.html"
 })
 $("#more2").click(function(){
   window.location.href="http://aotulink.com/"
